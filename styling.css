@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+:root {
+  --white-color: #FFFFFF;
+  --black-color: #1A1A1A;
+  --other-color: #CB2C52;
+  --hover-color: #D04163;
+  --text-size-0: 1vmin;
+  --text-size-1: 1.5vmin;
+  --text-size-2: 2vmin;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+*:focus {
+	outline: none;
+}
+
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+head {
+	position: fixed;
+}
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+#Content {
+	max-width: 1280px;
+	width: 80vw;
+	height: 100vh;
+	margin: 0 auto;
+	background-color: var(--white-color);
+}
+#Navigation {
+	position: fixed;
+}
+#Navigation img {
+	position: relative;
+	top: 1vh;
+	height: 4.5vh;
+}
+#Navigation li {
+	display: inline;
+}
+#Navigation a {
+	color: var(--black-color);
+	font-family: font-family: 'Montserrat', sans-serif;
+	font-size: var(--text-size-1);
+	font-weight: bold;
+	margin: 1vw;
+}
+#Content-Item {
+	position: relative;
+	top: 20vh;
+}
+
+
+
+
+
+
+
+
+
+#Content-Description {
+	position: relative;
+	top: 10vh;
+	background: #FFE4E1;
+	max-width: 1024px;
+	width: 60vw;
+	height: 80vh;
+	margin: auto;
+}
+.material-icons {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: visible;
+    cursor:pointer;
+    outline:none;
+    position: relative;
+    top: 1vh;
+    left: 0.5vw;
+    opacity: 0.75;
+}
+.VoA {
+	border: none;
+	position: relative;
+	top: 65vh;
+	width: 100%;
+	height: 15vh;
+	background-color: var(--other-color);
+	font-size: var(--text-size-2);
+	color: var(--white-color);
+}
+.VoA:hover {
+	cursor: pointer;
+	background-color: var(--hover-color);
+}
