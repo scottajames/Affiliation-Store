@@ -1,0 +1,59 @@
+<DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+	<div id="Content">
+	<header>
+		<div id="Logo"><a href="index.html"><img src="Logo-_-Main.png"></a></div>
+	</header>
+
+	<div id="Content-1">
+		<div id="Detail">
+  			<div id="Detail-Image"></div>
+  			<div id="Detail-text"></div>
+		</div>
+  
+	<div id="Cart">
+  		<div id="Checkout"></div>
+		<button id="Checkout-button" onclick="myfunction()">Checkout</button>
+	</div>
+
+    </div>
+
+    <div id="Content-2">
+		<a><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00XWPUO6U&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=ishnualahi-21" onclick='link()'>NIKE Men's Tanjun Trainers</a>
+		<a><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00XWPUO6U&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=ishnualahi-21" onclick='link()'>NIKE Men's Tanjun Trainers</a>
+		<a><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00XWPUO6U&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=ishnualahi-21" onclick='link()'>NIKE Men's Tanjun Trainers</a>
+		<a><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=GB&ASIN=B00XWPUO6U&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=ishnualahi-21" onclick='link()'>NIKE Men's Tanjun Trainers</a>
+		<div id="content-text" style="display: none">
+			<p>The Tanjun shoe is made of breathable fabric and two soles, half and outside, foam. This shoe offers extra comfort and support.
+			<li>Outer Material: Synthetic</li>
+			<li>Inner Material: Textile</li>
+			<li>Sole: Synthetic</li>
+			<li>Closure: Lace-Up</li>
+			<li>Heel Height: 1 centimetres</li>
+			<li>Heel Type: Flat</li>
+			<li>Shoe Width: Normal</li></p></div>
+
+	</div>
+	<!-- Hiding content-text until image is clicked -->
+	<script>
+		function link() {
+			var a = document.getElementById('content-text');
+			a.style.display = "block";
+		}
+	</script>
+	<script>
+		function link() {
+			var b = document.creatElement('P');
+			var c = document.creatc('The Tanjun shoe is made of breathable fabric and two soles, half and outside, foam. This shoe offers extra comfort and support<br>Outer Material: Synthetic<br>Inner Material: Textile<br>Sole: Synthetic<br>Closure: Lace-Up<br>Heel Height: 1 centimetres<br>Heel Type: Flat<br>Shoe Width: Normal');
+			b.appendChild(c);
+			document.getElementById('Detail').appendChild(b);
+		}
+	</script>
+  </div>
+</body>
+</html>
+</DOCTYPE>
