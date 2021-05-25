@@ -41,6 +41,11 @@ header a {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
+#Featured {
+	margin: 1vh 1vw;
+	font-size: var(--text);
+	color: var(--black);
+}
 #Detail {
 	position: relative;
 	top: 3.5vh;
@@ -170,7 +175,9 @@ header a {
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
-
+#Content-2 span {
+	display: none;
+}
 #Content-2 a {
 	text-decoration: none;
 	display: inline;
